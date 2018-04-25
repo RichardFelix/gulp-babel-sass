@@ -1,0 +1,17 @@
+$bgColor: #000;
+
+body{
+    background-color: $bgColor;
+    display: grid; 
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "sidebar sidebar"
+}
+
+.sidebar{
+    grid-area: sidebar;
+
+   .box{
+       background-color: $bgColor;
+   }
+}
